@@ -10,7 +10,7 @@
 		 {"name": "siblings", "type": ["int", "null"]},
          {"name": "last_name",  "type": ["string", "null"]},
          {"name": "middle_name",  "type": ["string", "null"]},
-         {"name": "sex",  "type": ["string", "null"], "default": "null"},
+         {"name": "sex",  "type": { "type": "enum", "name": "Gender", "symbols" : ["MALE", "FEMALE"]}},
          {"name": "birthdate", "type": ["string", "null"]},
 		 {"name": "join_date", "type": ["string", "null"]}
 		]

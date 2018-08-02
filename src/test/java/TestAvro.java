@@ -10,6 +10,8 @@ import org.junit.jupiter.api.Test;
 import java.io.File;
 import java.io.IOException;
 
+import static com.gurps.avro.Gender.MALE;
+
 
 public class TestAvro {
 
@@ -26,6 +28,7 @@ public class TestAvro {
                               .setBirthdate("1982-01-12")
                               .setPhoneNumber("91822")
                               .setMiddleName("bernard")
+                              .setSex(MALE)
                               .setSiblings(2)
                               .setUsername("fredflintstone")
                               .build();
