@@ -27,6 +27,7 @@
                     <!-- ensure string properties are generated as String not CharSequence -->
                     <stringType>String</stringType>
                     <fieldVisibility>PRIVATE</fieldVisibility> <!-- stop it generating public deprecated fields -->
+                    <createSetters>false</createSetters>
                 </configuration>
                 <executions>
                     <execution>
